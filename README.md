@@ -42,3 +42,6 @@ Objectives are custom made and exist from start on. Thus, there is no spawning o
 * Great flexibility for CO's to execute the objectives the way they want
 * Enemy presence and behavior based on time of day
 * ...
+
+## Notes
+Mission is dependend on the [United Operations](www.unitedoperations.net) Modpack.
