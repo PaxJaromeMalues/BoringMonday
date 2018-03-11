@@ -29,13 +29,11 @@ v2.0
 #changed briefing to reflect additions
 #changed few smaller bugs and module settings
 
-
 v1.2
 =====
 #added more Snatch Landrovers instead of basic ones
 #fixed wrong laser designator in vehicle gear
 #changed JTAC gear
-
 
 v1.1
 =====
@@ -45,7 +43,6 @@ v1.1
 #fixed some errors in briefing
 #fixed wrongly assigned gear
 #removed lonely chopper outside the FOB
-
 
 v1.0
 =====
