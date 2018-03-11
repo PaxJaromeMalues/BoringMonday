@@ -1,5 +1,17 @@
 # Boring Monday
 
+<p align="center">
+    <img src="https://github.com/whipl/BoringMonday/blob/master/images/img_overviewN.jpg" height="300" width="600">
+</p>
+<p align="center">
+    <a href="https://github.com/whipl/BoringMonday/releases/latest">
+        <img src="https://img.shields.io/badge/Release-v2.0-red.svg" alt="Release">
+    </a>
+    <a href="https://github.com/whipl/BoringMonday/issues">
+        <img src="https://img.shields.io/github/issues-raw/whipl/BoringMonday.svg?label=Issues" alt="FC2 Issues">
+    </a>
+</p>
+
 ## Overview
 Boring Monday is a ArmA 3 Mission, initially created as a "seeder" type mission to be run to give players a scenario to hang around while waiting for other players to fill the server. As such, the mission was designed to feature a relaxing atmosphere with a wide variety of possibilities.
 With a high degree of milsim in mind, this mission became a non-conventional counter insurgency type mission where players can roam around and explore the map as they like. The mission does not use any frameworks and has been made from scratch. To give players a rough idea on what to do, the mission features multiple pre-made objectives. High replay-ability is one of the core aspects of this mission. Therefore, a high degree of randomization is intended in addition to a ArmA 3 Zeus player who can further alter the experience.
