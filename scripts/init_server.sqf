@@ -65,9 +65,7 @@ if ((paramsArray select 0) == 4) then {
 /* ****		Variables	**************************************************************************************************************************************************************** */
 /* ************************************************************************************************************************************************************************************* */
 
-// Variable for the civilian spotter script (scripts\civ_spotter_1.sqf)
-var_civ_spotter_1 = false;
-publicVariable "var_civ_spotter_1";
+// Variables
 var_patrol = false;
 publicVariable "var_patrol";
 var_mhq_enabled = false;
@@ -78,24 +76,7 @@ publicVariable "var_mhq_enabled";
 /* ****		Functions	**************************************************************************************************************************************************************** */
 /* ************************************************************************************************************************************************************************************* */
 
-//whip_fnc_acreInit = compile preprocessFile "scripts\client_side\acre_init.sqf";
-
 //Retrans
-//	["ACRE_PRC117F", veh_retrans, 36.625, 37.775, 20000] call acre_api_fnc_attachRxmtToObj;
+//["ACRE_PRC117F", veh_retrans, 36.625, 37.775, 20000] call acre_api_fnc_attachRxmtToObj;
 //[0.0] call acre_api_fnc_setLossModelScale;
-
-
-/* ************************************************************************************************************************************************************************************* */
-/* ****		BIS/ACE Var.	************************************************************************************************************************************************************ */
-/* ************************************************************************************************************************************************************************************* */
-/* --> ArmA2 code snippets. Most is currently done by modules in-game!
-//enableEngineArtillery false; //Turns off BIS artillery
-ace_sys_wounds_no_medical_gear = true;  // Removes automatic medical gear addition
-//ace_sys_wounds_leftdam = 0.2; // Damage left after healed in the field
-//ace_sys_tracking_markers_enabled = false; // Disables tracking markers
-//ace_sys_tracking_radio_required = true; // Disables tracking markers for units without a radio
-ace_sys_tracking_gps_required = true; // Disables tracking markers for units without a GPS
-ace_settings_enable_vd_change = true; // Enables view distance change using ACE Settings menu
-//ace_settings_enable_tg_change = false; // Enables grass change using ACE Settings menu
-*/
 
