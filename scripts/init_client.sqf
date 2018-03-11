@@ -24,19 +24,18 @@
 
 if (!(isNull player)) then {
 
-
 	//Set View Distance
 	setViewDistance 4000;
     
-    // Radios!
-    0 fadeRadio 0;														//mute in-game radio commands
-    enableRadio false;
-    enableSentences false;
+	// Radios!
+	0 fadeRadio 0;		//mute in-game radio commands
+	enableRadio false;
+	enableSentences false;
 		
 	//Execute Game Scripts
 	nonJIP = [] execVM "briefing.sqf";
-//    nonJIP = [] execVM "scripts\acre_init.sqf";
-    nonJIP = [] execVM "scripts\client_side\acre.sqf";
+//	nonJIP = [] execVM "scripts\acre_init.sqf";
+	nonJIP = [] execVM "scripts\client_side\acre.sqf";
 };
 
 // ***************************** //
@@ -46,21 +45,20 @@ if (!(isNull player)) then {
 if (!isServer && isNull player) then {
 	
 	waitUntil {!isNull player};
-	
 
 	//Set View Distance
 	setViewDistance 4000;
-		
+	
 	//Misc. Radio/Weapon
-	0 fadeRadio 0;														//mute in-game radio commands
-    enableRadio false;
-    enableSentences false;
+	0 fadeRadio 0;		//mute in-game radio commands
+	enableRadio false;
+	enableSentences false;
 		
 	//Execute Game Scripts
 	JIP = [] execVM "briefing.sqf";
-//    JIP = [] execVM "scripts\acre_init.sqf";
-    JIP = [] execVM "scripts\client_side\acre.sqf";
-    JIP = [] execVM "scripts\initTeleportToSL.sqf";						// uncomment if teleport is needed
+//	JIP = [] execVM "scripts\acre_init.sqf";
+	JIP = [] execVM "scripts\client_side\acre.sqf";
+	JIP = [] execVM "scripts\initTeleportToSL.sqf";		// uncomment if teleport is needed
 };
 
 
@@ -71,14 +69,6 @@ if (!isServer && isNull player) then {
 // Things to be executed by everyone go below here
 [] execVM "scripts\client_side\addaction_init.sqf";
 [] execVM "scripts\server_side\killerchair.sqf";
-
-//waituntil {!IsNil "EM_weightlimits"};
-//    EM_weightlimits = [0.2, 0.4, 0.7, 0.9];
-//waituntil {!IsNil "EM_enable"};
-//    EM_enable = [true, true];
-//waituntil {!IsNil "EM_allowed"};
-//    EM_allowed = true;
-
 
 
 // ***************************** //
