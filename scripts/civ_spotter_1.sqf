@@ -7,6 +7,7 @@
 // This is run by executing it from a waypoint (Scripted type).
 // Civilian spotter script. This is run when a civilian spotter calls and alarms OPFOR.
 // Initialize the variables used here in the server_init.sqf
+// Adds random radio chatter to specific objects
 
 /* ==================================================== */
 
