@@ -44,4 +44,4 @@ Objectives are custom made and exist from start on. Thus, there is no spawning o
 * ...
 
 ## Notes
-Mission is dependend on the [United Operations](www.unitedoperations.net) Modpack.
+Mission is dependend on the [United Operations](http://www.unitedoperations.net) Modpack.
