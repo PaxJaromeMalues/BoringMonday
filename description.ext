@@ -22,7 +22,7 @@ class Header
 // Mission loading screen
 author = "Whiplash";
 OnLoadName = "Boring Monday BAF v1.0";
-OnLoadMission = "Another boring day is about to begin for the British forces in PR Fata...";
+OnLoadMission = "Another boring day is about to begin for the British forces in Fata region...";
 loadScreen = "images\img_loadscreenN.jpg";
 
 // Mission overview (Mission selection screen)
