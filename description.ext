@@ -31,7 +31,7 @@ overviewText = "Seeder Mission: Counter insurgency operations in PR Fata. Stay a
 //overviewPicture = "images\img_overview.jpg";
 
 // Intro settings
-onLoadIntro = "Another boring day is about to begin for the British forces in PR Fata..."; // "" for no message
+onLoadIntro = "Another boring day is about to begin for the British forces in Fata region..."; // "" for no message
 onLoadIntroTime = 1; // 0 hidden
 onLoadMissionTime = 1; // 0 hidden
 
