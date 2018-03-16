@@ -12,7 +12,7 @@
 
 
 
-if (!isDedicated) then {
+if (!isServer) then {
     
     []execVM "scripts\init_client.sqf";
     //whip_fnc_acreInit = compile preprocessFile "scripts\client_side\acre.sqf";
