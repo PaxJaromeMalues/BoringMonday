@@ -25,7 +25,8 @@
 if (!(isNull player)) then {
 
 	//Set View Distance
-	setViewDistance 4000;
+//	setViewDistance 4000;
+//^Please do not fuck around with players local graphic settings.^
     
 	// Radios!
 	0 fadeRadio 0;		//mute in-game radio commands
@@ -47,8 +48,9 @@ if (!isServer && isNull player) then {
 	waitUntil {!isNull player};
 
 	//Set View Distance
-	setViewDistance 4000;
-	
+//	setViewDistance 4000;
+// NO!
+
 	//Misc. Radio/Weapon
 	0 fadeRadio 0;		//mute in-game radio commands
 	enableRadio false;
