@@ -4,6 +4,8 @@
 /* ===  See comments below for how-to-use.          === */
 /* ==================================================== */
 
+// This script prevents people from picking up any chair object mentioned below
+// Chairs are the new ArmA bushes.
 // Credits to Pax for this.
 
 /* ==================================================== */
