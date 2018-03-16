@@ -4,7 +4,7 @@
 /* ===  See comments below for how-to-use.          === */
 /* ==================================================== */
 
-// Initiates client-side scripts and sets other things like viewdistance etc.
+// Initiates client-side scripts and sets other things like view distance etc.
 // JIP and non-JIP are defined separately.
 
 /* ==================================================== */
