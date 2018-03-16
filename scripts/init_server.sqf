@@ -25,7 +25,7 @@ setViewDistance 4000;
 
 //[] execVM "scripts\acre_init.sqf";
 [] execVM "scripts\server_side\endconditions\endconditions_init.sqf";
-[] execVM "scripts\server_side\killerchair.sqf";
+[] execVM "scripts\killerchair.sqf";
 [] execVM "scripts\server_side\holdaction_init.sqf";
 
 
