@@ -58,8 +58,8 @@ class CfgDebriefing
 	class END1
 	{
 		title = "MISSION COMPLETED";
-		subtitle = "We made it through another boring monday...";
-//		description = "Seems like we made it through yet another boring monday.";
+		subtitle = "We made it through another boring Monday...";
+//		description = "Seems like we made it through yet another boring Monday.";
 		pictureBackground = "images\img_overviewN.jpg";
 		picture = "";
 		pictureColor[] = {};
