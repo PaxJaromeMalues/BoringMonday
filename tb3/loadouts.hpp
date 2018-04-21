@@ -1,141 +1,141 @@
 //Loadouts called with: [this,"side_class","unit_class"] call tb3_fLoadout;
 class TB3_Gear {
 	class WEST {
-        /* ******************** */
-        /* British Armed Forces */
-        /* ******************** */
-        // Base loadouts
-        class BAF_RIFLE_BASE {
-			weapons[] = {"UK3CB_BAF_L85A2","UK3CB_BAF_L131A1"};
-			priKit[] = {"RKSL_optic_LDS","UK3CB_BAF_SFFH"};
-			secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
-			
-			assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-			
-			headgear[] = {"UK3CB_BAF_H_Mk7_Camo_E"};
-			goggles[] = {};
-			
-			uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP"};
-				uniformContents[] = {
-					{"ACRE_PRC343",1},
-                    {"ACE_EarPlugs",1},
-                    {"ACE_MapTools",1},
-					{"Chemlight_green",1},      // IFAK
-					{"ACE_fieldDressing",4},    // IFAK
-   					{"ACE_elasticBandage",4},   // IFAK
-					{"ACE_packingBandage",3},   // IFAK
-					{"ACE_quikclot",3},         // IFAK
-                    {"ACE_morphine",1},         // IFAK
-					{"ACE_tourniquet",1}        // IFAK
-				};
-				
-			vest[] = {"UK3CB_BAF_V_Osprey_Rifleman_C"};
-				vestContents[] = {
-                    {"UK3CB_BAF_H_Beret_PWRR",1},
-                    {"UK3CB_BAF_HMNVS",1},
-                    {"ACE_IR_Strobe_Item",1},
-					{"ACE_CableTie",1},
-                    {"UK3CB_BAF_556_30Rnd",6},
-                    {"UK3CB_BAF_556_30Rnd_T",1},
-                    {"UK3CB_BAF_9_17Rnd",2},
-                    {"rhs_mag_m67",2},
-                    {"rhs_mag_an_m8hc",1}             // Orange for leaders, white for soldiers
-				};
-				
-			backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D", 1};
-				backpackContents[] = {
-                    {"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
-					{"ACE_Sandbag_empty",1},
-                    {"UK3CB_BAF_556_30Rnd",3},
-                    {"UK3CB_BAF_556_30Rnd_T",1},
-                    {"UK3CB_BAF_556_100Rnd",1},
-                    {"UK3CB_BAF_556_100Rnd_T",1},
-					{"rhs_mag_m67",2},
-					{"rhs_mag_an_m8hc",2},
-					{"rhs_mag_m18_green",1},
-					{"rhs_mag_m18_red",1},
-					{"Chemlight_green",2},
-					{"Chemlight_red",2},
-					{"Chemlight_yellow",1},
-					{"ACE_HandFlare_Red",1},
-					{"ACE_HandFlare_Green",1}
-				};
-				
-			magazines[] = {}; items[] = {};
-		};
-        // FOB personal
-        class BAF_FOB_MC {
-			weapons[] = {"UK3CB_BAF_L131A1"};
-			priKit[] = {};
-			secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
-			
-			assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-			
-			headgear[] = {"UK3CB_BAF_H_Beret_PWRR"};
-			goggles[] = {};
-			
-			uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP_TShirt"};
-				uniformContents[] = {
-                    {"ACE_EarPlugs",1},
-                    {"ACE_MapTools",1},
-					{"Chemlight_green",1},      // IFAK
-					{"ACE_fieldDressing",4},    // IFAK
-   					{"ACE_elasticBandage",4},   // IFAK
-					{"ACE_packingBandage",3},   // IFAK
-					{"ACE_quikclot",3},         // IFAK
-                    {"ACE_morphine",1},         // IFAK
-					{"ACE_tourniquet",1}        // IFAK
-				};
-				
-			vest[] = {"UK3CB_BAF_V_Osprey_Holster"};
-				vestContents[] = {
-                    {"UK3CB_BAF_9_17Rnd",1},
-					{"ACRE_PRC148",1},     // Not for all units
-					{"ACRE_PRC152",1}     // Not for all units
-				};
-				
-			backpack[] = {};
-				backpackContents[] = {
-				};
-				
-			magazines[] = {}; items[] = {};
-		};
-        class BAF_FOB_RTO {
-			weapons[] = {"UK3CB_BAF_L131A1"};
-			priKit[] = {};
-			secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
-			
-			assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-			
-			headgear[] = {"UK3CB_BAF_H_Earphone"};
-			goggles[] = {};
-			
-			uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP_TShirt"};
-				uniformContents[] = {
-                    {"ACE_EarPlugs",1},
-                    {"ACE_MapTools",1},
-					{"Chemlight_green",1},      // IFAK
-					{"ACE_fieldDressing",4},    // IFAK
-   					{"ACE_elasticBandage",4},   // IFAK
-					{"ACE_packingBandage",3},   // IFAK
-					{"ACE_quikclot",3},         // IFAK
-                    {"ACE_morphine",1},         // IFAK
-					{"ACE_tourniquet",1}        // IFAK
-				};
-				
-			vest[] = {"UK3CB_BAF_V_Osprey_Holster"};
-				vestContents[] = {
-                    {"UK3CB_BAF_9_17Rnd",1},
-					{"ACRE_PRC148",1},     // Not for all units
-					{"ACRE_PRC152",1}     // Not for all units
-				};
-				
-			backpack[] = {};
-				backpackContents[] = {
-				};
-				
-			magazines[] = {}; items[] = {};
-		};
+	/* ******************** */
+	/* British Armed Forces */
+	/* ******************** */
+	// Base loadouts
+	class BAF_RIFLE_BASE {
+		weapons[] = {"UK3CB_BAF_L85A2","UK3CB_BAF_L131A1"};
+		priKit[] = {"RKSL_optic_LDS","UK3CB_BAF_SFFH"};
+		secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
+		
+		assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		
+		headgear[] = {"UK3CB_BAF_H_Mk7_Camo_E"};
+		goggles[] = {};
+		
+		uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP"};
+			uniformContents[] = {
+				{"ACRE_PRC343",1},
+				{"ACE_EarPlugs",1},
+				{"ACE_MapTools",1},
+				{"Chemlight_green",1},      // IFAK
+				{"ACE_fieldDressing",4},    // IFAK
+   				{"ACE_elasticBandage",4},   // IFAK
+				{"ACE_packingBandage",3},   // IFAK
+				{"ACE_quikclot",3},         // IFAK
+				{"ACE_morphine",1},         // IFAK
+				{"ACE_tourniquet",1}        // IFAK
+			};
+
+		vest[] = {"UK3CB_BAF_V_Osprey_Rifleman_C"};
+			vestContents[] = {
+				{"UK3CB_BAF_H_Beret_PWRR",1},
+				{"UK3CB_BAF_HMNVS",1},
+				{"ACE_IR_Strobe_Item",1},
+				{"ACE_CableTie",1},
+				{"UK3CB_BAF_556_30Rnd",6},
+				{"UK3CB_BAF_556_30Rnd_T",1},
+				{"UK3CB_BAF_9_17Rnd",2},
+				{"rhs_mag_m67",2},
+				{"rhs_mag_an_m8hc",1}             // Orange for leaders, white for soldiers
+			};
+
+		backpack[] = {"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D", 1};
+			backpackContents[] = {
+				{"UK3CB_BAF_G_Tactical_Orange",1}, // Different color for different units
+				{"ACE_Sandbag_empty",1},
+				{"UK3CB_BAF_556_30Rnd",3},
+				{"UK3CB_BAF_556_30Rnd_T",1},
+				{"UK3CB_BAF_556_100Rnd",1},
+				{"UK3CB_BAF_556_100Rnd_T",1},
+				{"rhs_mag_m67",2},
+				{"rhs_mag_an_m8hc",2},
+				{"rhs_mag_m18_green",1},
+				{"rhs_mag_m18_red",1},
+				{"Chemlight_green",2},
+				{"Chemlight_red",2},
+				{"Chemlight_yellow",1},
+				{"ACE_HandFlare_Red",1},
+				{"ACE_HandFlare_Green",1}
+			};
+
+		magazines[] = {}; items[] = {};
+	};
+	// FOB personal
+	class BAF_FOB_MC {
+		weapons[] = {"UK3CB_BAF_L131A1"};
+		priKit[] = {};
+		secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
+
+		assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+
+		headgear[] = {"UK3CB_BAF_H_Beret_PWRR"};
+		goggles[] = {};
+
+		uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP_TShirt"};
+			uniformContents[] = {
+				{"ACE_EarPlugs",1},
+				{"ACE_MapTools",1},
+				{"Chemlight_green",1},      // IFAK
+				{"ACE_fieldDressing",4},    // IFAK
+   				{"ACE_elasticBandage",4},   // IFAK
+				{"ACE_packingBandage",3},   // IFAK
+				{"ACE_quikclot",3},         // IFAK
+				{"ACE_morphine",1},         // IFAK
+				{"ACE_tourniquet",1}        // IFAK
+			};
+
+		vest[] = {"UK3CB_BAF_V_Osprey_Holster"};
+			vestContents[] = {
+				{"UK3CB_BAF_9_17Rnd",1},
+				{"ACRE_PRC148",1},     // Not for all units
+				{"ACRE_PRC152",1}     // Not for all units
+			};
+
+		backpack[] = {};
+			backpackContents[] = {
+			};
+
+		magazines[] = {}; items[] = {};
+	};
+	class BAF_FOB_RTO {
+		weapons[] = {"UK3CB_BAF_L131A1"};
+		priKit[] = {};
+		secKit[] = {"UK3CB_BAF_Flashlight_L131A1","UK3CB_BAF_9_17Rnd"};
+
+		assignedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+
+		headgear[] = {"UK3CB_BAF_H_Earphone"};
+		goggles[] = {};
+
+		uniform[] = {"UK3CB_BAF_U_CombatUniform_MTP_TShirt"};
+			uniformContents[] = {
+				{"ACE_EarPlugs",1},
+				{"ACE_MapTools",1},
+				{"Chemlight_green",1},      // IFAK
+				{"ACE_fieldDressing",4},    // IFAK
+ 				{"ACE_elasticBandage",4},   // IFAK
+				{"ACE_packingBandage",3},   // IFAK
+				{"ACE_quikclot",3},         // IFAK
+				{"ACE_morphine",1},         // IFAK
+				{"ACE_tourniquet",1}        // IFAK
+			};
+
+		vest[] = {"UK3CB_BAF_V_Osprey_Holster"};
+			vestContents[] = {
+				{"UK3CB_BAF_9_17Rnd",1},
+				{"ACRE_PRC148",1},     // Not for all units
+				{"ACRE_PRC152",1}     // Not for all units
+			};
+
+		backpack[] = {};
+			backpackContents[] = {
+			};
+
+		magazines[] = {}; items[] = {};
+	};
         // PWRR Platoon HQ
         class BAF_PWRR_PL {
 			weapons[] = {"UK3CB_BAF_L85A2_EMAG","UK3CB_BAF_L131A1","ACE_Vector"};
@@ -2144,6 +2144,42 @@ class TB3_Gear {
 			};
 			vehCargoRucks[] = {
 				{"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",1}
+			};
+		};
+        class BAF_BULLDOG_ARMED_HMG {
+			vehCargoWeapons[] = {
+                {"UK3CB_BAF_AT4_CS_AT_Launcher",2}
+            };
+			vehCargoMagazines[] = {
+				{"UK3CB_BAF_127_100Rnd",10},
+				{"UK3CB_BAF_762_200Rnd",4},
+				{"UK3CB_BAF_556_30Rnd",20},
+				{"UK3CB_BAF_556_30Rnd_T",5},
+				{"UK3CB_BAF_556_200Rnd",5},
+				{"UK3CB_BAF_762_100Rnd_T",5},
+				{"UK3CB_BAF_762_L42A1_20Rnd",10},
+				{"UK3CB_BAF_762_L42A1_20Rnd_T",5},
+				{"rhs_mag_an_m8hc",10},
+				{"rhs_mag_m67",5},
+				{"ACE_HandFlare_Red",2},
+				{"ACE_HandFlare_Yellow",2}
+			};
+			vehCargoItems[] = {
+				{"ACE_wirecutter",2},
+				{"ACE_Sandbag_empty",20},
+				{"Chemlight_green",1},      // First Aid Vehicle
+				{"ACE_fieldDressing",8},    // First Aid Vehicle
+   				{"ACE_elasticBandage",8},   // First Aid Vehicle
+				{"ACE_packingBandage",5},   // First Aid Vehicle
+				{"ACE_quikclot",5},         // First Aid Vehicle
+                {"ACE_morphine",5},         // First Aid Vehicle
+                {"ACE_epinephrine",3},      // First Aid Vehicle
+				{"ACE_tourniquet",3},       // First Aid Vehicle
+				{"ACE_personalAidKit",3},   // First Aid Vehicle
+				{"ACE_bodyBag",2}           // First Aid Vehicle
+			};
+			vehCargoRucks[] = {
+				{"UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",2}
 			};
 		};
         class BAF_APACHE {
