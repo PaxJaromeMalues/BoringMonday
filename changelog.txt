@@ -12,8 +12,10 @@
 
 
 
-v2.0
+v2.0/3.0
 =====
+#added too much to keep track of all; major changes listed below
+
 #added Zeus support for Game Mastering setup (param selection)
 #added Opfor/Civ slots for Zeus control
 #added enemy behaviour now based on time of day
