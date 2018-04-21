@@ -1,5 +1,3 @@
-# Boring Monday
-
 <p align="center">
     <img src="https://github.com/whipl/BoringMonday/blob/master/images/img_overviewN.jpg" height="300" width="600">
 </p>
