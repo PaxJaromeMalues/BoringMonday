@@ -10,12 +10,8 @@
 // Adds random radio chatter to specific objects
 
 /* ==================================================== */
+#include "scripts\init_server.sqf"
 
-
-
-
-
-var_civ_spotter_1 = true;
 playSound3D ["A3\Sounds_F\sfx\radio\ambient_radio29.wss", phone_random_1, false, getPosAsl phone_random_1, 1.5, 1, 60];
 playSound3D ["A3\Sounds_F\sfx\radio\ambient_radio29.wss", fobE_toc_sattelitePhone_1, false, getPosAsl fobE_toc_sattelitePhone_1, 2, 1, 20];
 Sleep 5;

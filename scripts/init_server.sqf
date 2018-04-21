@@ -25,7 +25,7 @@ setViewDistance 4000;
 
 //[] execVM "scripts\acre_init.sqf";
 [] execVM "scripts\server_side\endconditions\endconditions_init.sqf";
-[] execVM "scripts\server_side\killerchair.sqf";
+[] execVM "scripts\killerchair.sqf";
 [] execVM "scripts\server_side\holdaction_init.sqf";
 
 
@@ -70,6 +70,7 @@ var_patrol = false;
 publicVariable "var_patrol";
 var_mhq_enabled = false;
 publicVariable "var_mhq_enabled";
+var_civ_spotter_1 = true;
 
 
 /* ************************************************************************************************************************************************************************************* */
