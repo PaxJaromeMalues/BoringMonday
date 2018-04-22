@@ -1109,6 +1109,7 @@ player createDiaryRecord ["Diary",["!MISSION INFO!*","
             <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Tires can be changed by anyone.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Toolkits are needed to repair after a specific damage value is reached.
             <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> Rearming is done by caliber type and might take some time.
+            <br /><font color='#FFA500' face='RobotoCondensedBold'>></font> ACE pylon feature is enabled on the FARP to prepare the Apache for armament. Before being able to rearm the Apache for the first time, a Engineer (Pilots) needs to use the ACE interaction on it while on the FARP and while having a toolkit equipped.
             <br /></font>
             <br /><font color='#FFA500' size='15' face='RobotoCondensed'>-------</font>
 			<br /><font color='#FFA500' size='15' face='RobotoCondensed'>MISC</font>
