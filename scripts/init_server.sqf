@@ -70,7 +70,6 @@ var_patrol = false;
 publicVariable "var_patrol";
 var_mhq_enabled = false;
 publicVariable "var_mhq_enabled";
-var_civ_spotter_1 = true;
 
 
 /* ************************************************************************************************************************************************************************************* */
